@@ -70,7 +70,7 @@ controls:
       #- paths: ../platforms/macos/declaration-profiles/*.json
       #- paths: ../platforms/macos/configuration-profiles/*.mobileconfig
       - path: ../platforms/macos/declaration-profiles/macos27-deferral.json
-        label_exclude_any:
+        labels_exclude_any:
           - macOS 27 beta testers
   windows_settings:
     configuration_profiles:
