@@ -15,8 +15,8 @@ org_settings:
   fleet_desktop: 
     transparency_url: https://pointerpointer.com
   webhook_settings:
-    activities_webook:
-      enable_activities_webook: true
+    activities_webhook:
+      enable_activities_webhook: true
       destination_url: https://webhook.site/c293016f-2e08-4b8b-a8f3-c5b8be0d32ea
   org_info:
     ###########################################################
