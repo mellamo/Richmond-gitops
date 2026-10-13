@@ -189,7 +189,11 @@ software:
 
   packages: # Custom packages (if any)
     # macOS custom packages
-    # …
+    - path: ../platforms/macos/software/zoom.yml
+      self_service: true
+      setup_experience: true
+      categories:
+        - Communication
 
     # Windows custom packages
     # …
@@ -205,4 +209,3 @@ settings:
       enable_failing_policies_webhook: true
       destination_url: https://webhook.site/c293016f-2e08-4b8b-a8f3-c5b8be0d32ea
       host_batch_size: 0
-      
